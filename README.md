@@ -462,7 +462,7 @@ da0 is the only server with these .s/.gz files
 Keys for identifying letters:   
 
 * a = Author
-* b = Blob
+* b = Blob (or fb FileBlob)
 * c = Commit
 * cc = Child Commit
 * f = File
@@ -478,8 +478,7 @@ Keys for identifying letters:
 
 List of relationships:
 ```
-* a2b 		* a2c (.s)	* a2f		* a2ft		
-* a2p (.s)	* a2trp0 (.s)
+* a2c (.s)	* a2fb		* a2ft		* a2p (.s)	* a2trp0 (.s)
 * b2a		* b2c (.s)	* b2f (.s)	* b2ob		* b2tk
 * c2b (.s)	* c2cc		* c2f (.s)	* c2h		* c2pc
 * c2p (.s)	* c2P		* c2ta (.s)	* c2td
